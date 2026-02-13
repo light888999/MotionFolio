@@ -2,190 +2,130 @@ export const config = {
     developer: {
         name: "David",
         fullName: "David Noden",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        title: "Full-Stack Engineer",
+        description: "Full-stack engineer with a track record of building scalable, maintainable, and high-performance applications across frontend and backend. Proven expertise in Backend and Frontend, with a strong foundation in cloud infrastructure (AWS), DevOps, and data engineering. Delivering full-stack solutions that power AI, analytics, and research platforms."
     },
     social: {
         github: "light888999",
         email: "david.noden.dev@gmail.com",
-        location: "United Kingdom"
+        location: "Leicester City, United Kingdom"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from the United Kingdom. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am a Full-Stack Engineer from United Kingdom. I build scalable, maintainable applications across frontend and backend with expertise in Python, Django, PHP, Laravel, Node.js, React, Angular, Vue, and AWS. I have delivered full-stack solutions in startups and enterprise environments—from 3D geospatial visualization platforms and financial data analytics to pharmacy and research tools."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "United Kingdom",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Full-Stack Engineer",
+            company: "Boost Bunny IT Service L.L.C",
+            period: "2023 - Present",
+            location: "United Arab Emirates",
+            description: "Revamped the 3D geospatial visualization platform using Python/Django and React/TypeScript, supporting 100+ concurrent users with sub-200ms latency. Designed React-based interfaces for data visualization and lab automation, improving researcher efficiency by 40%.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Revamped 3D geospatial visualization platform with Python/Django and React/TypeScript",
+                "Designed and implemented React-based interfaces for data visualization and lab automation tools",
+                "Orchestrated connection of lab equipment to cloud platforms via RESTful APIs",
+                "Automated infrastructure using AWS and Docker, achieving 99.99% system uptime"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["Python", "Django", "React", "TypeScript", "AWS", "Docker", "REST APIs"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
+            position: "Full-Stack Engineer",
+            company: "Capsule",
+            period: "2021 - 2023",
             location: "United Kingdom",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            description: "Revolutionized customer medication tracking through full-stack feature enhancements in Django and React, yielding a 10% decrease in support tickets. Built modular React components and integrated Redux for state management, reducing front-end bugs by 35%.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Full-stack feature enhancements in Django and React for medication tracking",
+                "Built modular React components and integrated Redux for state management",
+                "Pioneered mobile-responsive features across the pharmacy platform",
+                "Overhauled legacy front-end features, improving deployment frequency and application uptime to 99.9%"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["Django", "React", "Redux", "Python", "REST APIs"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
+            position: "Full-Stack Engineer",
+            company: "YCharts",
+            period: "2016 - 2021",
             location: "United Kingdom",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            description: "Pioneered back-end infrastructure for financial data analytics utilizing Python and Django. Transformed end-user reporting with Excel Add-In tools in C#, facilitating automated financial data retrieval and analysis for 100+ users.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Built back-end infrastructure for financial data analytics with Python and Django",
+                "Crafted Excel Add-In tools with C# for automated financial data retrieval and visualization",
+                "Supported internal front-end data visualizations using JavaScript and custom widgets",
+                "Built APIs and scalable ETL pipelines using AWS for 100,000+ financial instruments"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "United Kingdom",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "United Kingdom",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "United Kingdom",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Python", "Django", "C#", "JavaScript", "React", "AWS", "ETL"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "An intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            title: "Guestboard",
+            category: "Full Stack / Event Management",
+            technologies: "React, Laravel, PHP, MySQL, Pusher, Laravel Echo",
+            image: "/images/guestboard.png",
+            description: "Modular event management platform with a widget-based dashboard. Real-time chat, schedules, and file sharing. Engineered real-time message board and notification system with Pusher and Laravel Echo. Complex RSVP and guest permission logic with automated transactional emails and secure CSV exports."
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            title: "JAXA JADE2",
+            category: "Scientific / Data Visualization",
+            technologies: "CesiumJS, React, Django, Python, AWS, S3, EC2, WebGL",
+            image: "/images/jaxa-jade2.png",
+            description: "Interactive 3D geospatial visualization platform for Jovian Auroral Distribution Experiment (JADE) data from the Juno mission. High-performance Django backend for large-scale binary datasets. Deployed on AWS with S3 for petabyte-scale storage. Custom WebGL shaders for dense point-cloud rendering."
         },
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            title: "MyWorldNavigator",
+            category: "Full Stack / Enterprise",
+            technologies: "React, Typesense, PHP, WordPress, MySQL",
+            image: "/images/myworldnavigator.png",
+            description: "High-performance resident-centric management platform for itinerary planning and concierge services. Mobile-first dashboard with custom calendar sync and real-time booking. Lightning-fast global search with Typesense. Headless WordPress for content management. Reduced search latency by 80%, automated 100% of resident calendar syncing."
         },
         {
             id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
+            title: "DSX",
+            category: "Desktop / Hardware",
+            technologies: "WPF, C#, XAML, Windows, Bluetooth, USB HID",
+            image: "/images/dsx.jpg",
+            description: "High-performance Windows utility for PlayStation 5 DualSense controller customization. Manages low-level Bluetooth and USB HID protocols. Specialized driver integration for Steam ecosystem compatibility. XAML-based UI with real-time feedback for haptic levels, battery life, and trigger resistance. Custom trigger mechanics and haptic simulation."
         },
         {
             id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
+            title: "HiTask",
+            category: "Full Stack / Productivity",
+            technologies: "React, Redux",
+            image: "/images/hitask.png",
+            description: "High-performance collaborative task management platform. Complex global state with Redux for shared task lists, team calendars, and project dashboards. Modular React components for drag-and-drop prioritization and time-tracking. Real-time collaboration for global teams with optimized React Hooks."
         },
         {
             id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model for river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
-        },
-        {
-            id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            title: "Notes Trader",
+            category: "Full Stack / Fintech",
+            technologies: "React, Redux",
+            image: "/images/notestrader.png",
+            description: "Secure financial marketplace for listing, analysis, and trading of mortgage-backed notes. Robust Redux architecture for real-time sync between asset listings and investment portfolios. High-performance React components for valuation and risk assessment. Interactive data filtering for secondary market opportunities."
         }
     ],
     contact: {
         email: "david.noden.dev@gmail.com",
+        phone: "+447494294208",
         github: "https://github.com/light888999",
-        linkedin: "https://www.linkedin.com/in/david-noden-6a53843a9/",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        linkedin: "https://www.linkedin.com/in/david-noden-6a53843a9/"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "BACKEND & DEVOPS",
+            description: "Scalable backends & DevOps with Docker and AWS",
+            details: "Building back-end infrastructure with Python, Django, Node, Express, and PHP. Data ingestion, ETL pipelines, and APIs. Cloud infrastructure with AWS, Docker, and DevOps.",
+            tools: ["Python", "Django", "Node", "Express", "PHP", "REST APIs", "AWS", "Docker", "KDB+", "Vagrant", "ETL"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "FULL-STACK & FRONTEND",
+            description: "Modern web & data visualization",
+            details: "Building responsive interfaces with React, Redux, Vue, Angular, TypeScript, and JavaScript. Data visualization, 3D geospatial (CesiumJS), and mobile-responsive platforms.",
+            tools: ["React", "Redux", "Vue", "Angular", "TypeScript", "JavaScript", "HTML", "CSS", "C#", "WPF", "API Integration"]
         }
     }
 };
