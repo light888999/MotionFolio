@@ -112,6 +112,17 @@ const Contact = () => {
                 Phone <MdArrowOutward />
               </a>
             )}
+            {"phone" in config.contact && config.contact.phone && (
+              <a
+                href={`https://wa.me/${config.contact.phone.replace(/\D/g, "")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor="disable"
+                className="contact-social"
+              >
+                WhatsApp <MdArrowOutward />
+              </a>
+            )}
           </div>
           <div className="contact-box">
             <h2>

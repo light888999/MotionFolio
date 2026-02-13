@@ -2,6 +2,7 @@ import {
   FaGithub,
   FaLinkedinIn,
   FaPhone,
+  FaWhatsapp,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { useEffect } from "react";
@@ -71,6 +72,17 @@ const SocialIcons = () => {
           <span>
             <a href={`tel:${config.contact.phone}`} rel="noopener noreferrer">
               <FaPhone />
+            </a>
+          </span>
+        )}
+        {"phone" in config.contact && config.contact.phone && (
+          <span>
+            <a
+              href={`https://wa.me/${config.contact.phone.replace(/\D/g, "")}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp />
             </a>
           </span>
         )}
