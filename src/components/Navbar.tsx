@@ -66,6 +66,9 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
+        <a href="/" className="navbar-title" data-cursor="disable">
+          David Noden
+        </a>
         <a
           href="mailto:david.noden.dev@gmail.com"
           className="navbar-connect"
