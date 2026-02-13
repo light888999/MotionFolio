@@ -109,9 +109,10 @@
 
   /* Specific styling for the distinct parts */
   .landing-h2-1 {
-    font-size: 24px !important;
+    font-size: 18px !important;
     color: var(--accentColor);
     font-weight: 700;
+    margin-top: -20px !important;
   }
 
   .landing-h2-info {
@@ -449,6 +450,11 @@ h2.landing-info-h2 {
   h2.landing-info-h2 {
     font-size: 38px;
   }
+
+  .landing-h2-1 {
+    font-size: 19px !important;
+    margin-top: -20px !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -476,6 +482,11 @@ h2.landing-info-h2 {
 
   h2.landing-info-h2 {
     font-size: 55px;
+  }
+
+  .landing-h2-1 {
+    font-size: 20px !important;
+    margin-top: -28px !important;
   }
 }
 
